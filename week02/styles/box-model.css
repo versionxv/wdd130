@@ -1,15 +1,30 @@
 .callout {
-	
+    max-width: 400px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    padding: 15px;
+    background-color: darkblue;
+    color: white;
 }
 
 .callout img {
-	
+    float: right;
+    margin: 5px;
+    border: 1px solid;
+    padding: 5px;
+    background-color: black;
+    width: 25%;
+    height: 25%;
 }
 
 blockquote {
-	
+    margin: 10px;
 }
 
 cite {
-	
+    display: block;
+    border-top: 1px solid;
+    padding-top: 15px;
+    text-align: right;
+    font-size: medium;
 }
