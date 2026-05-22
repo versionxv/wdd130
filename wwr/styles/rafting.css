@@ -71,7 +71,7 @@ h2 {
     background-color: var(--secondary-color);
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 20px;
     width: 800px;
