@@ -10,17 +10,24 @@
 
 nav {
     background-color: darkblue;
-    padding: 10px;
+    padding: 1 rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: #000 1px solid;
 }
 
 main img {
@@ -36,7 +43,9 @@ p {
     padding: 0;
 }
 
-main {
+header,
+main,
+footer {
     max-width: 840px;
 }
 
@@ -48,6 +57,9 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -68,4 +80,14 @@ footer {
     padding: 1rem;
     background-color: white;
     color: #333;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
 }
