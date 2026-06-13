@@ -344,7 +344,7 @@ button {
     width: 180px;
     padding: 0px;
     margin: 0;
-
+    transform: translateY(-150px)
 }
 
 .degree h2 {
@@ -395,4 +395,44 @@ button {
     right: 200px;
     top: 100px;
     font-size: larger;
+}
+
+.offers {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 750px;
+    transform: translate(50px)
+}
+
+.offers img {
+    width: 240px;
+    height: 180px;
+    padding: 10px 5px 5px 0px;
+}
+
+.offers p {
+    background-color: var(--accent2-color);
+    transform: translate(-50px, 50px)
+}
+
+.contact {
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px;
 }
